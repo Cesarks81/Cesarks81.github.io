@@ -148,9 +148,28 @@ article {
 }
 
 .styleBar {
-    width: 70%;
     border-radius: 0 20px 20px 0;
     background: #212933;
+}
+
+#barHTML5 {
+    width: 70%;
+}
+
+#barCSS {
+    width: 70%;
+}
+
+#barLINUX {
+    width: 60%;
+}
+
+#barPYTHON {
+    width: 80%;
+}
+
+#barSCRAPING {
+    width: 90%;
 }
 
 @media screen and (max-width:950px) {
