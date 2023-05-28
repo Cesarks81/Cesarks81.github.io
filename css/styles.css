@@ -135,14 +135,14 @@ article {
 .skill p {
     display: inline;
     width: 15%;
+    min-width: 80px;
 }
 
 .progress-bar {
     width: 75%;
     text-align: center;
-    align-items: center;
+    align-items: baseline;
     margin: auto;
-    height: 25%;
 
     background: #303B4D;
 }
@@ -153,7 +153,7 @@ article {
     background: #212933;
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:950px) {
     body {
         width: 90%;
     }
@@ -170,5 +170,15 @@ article {
 
     h1 {
         text-align: center;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .progress-bar {
+        margin: auto 10px;
+    }
+
+    .skill p {
+        margin: 5px;
     }
 }
